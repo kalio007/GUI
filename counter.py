@@ -7,6 +7,9 @@ def increment_count():
 
 def reset_count():
     label["text"] = "0"
+def close_window():
+    root.destroy()  
+
 
 #the main window
 root = tk.Tk()
@@ -24,5 +27,9 @@ increment_button.pack()
 reset_button = tk.Button(root, text="Reset", command=reset_count)
 reset_button.pack()
 
-# Start the Tkinter main loop
+#In-app close Button
+close_button = tk.Button(root, text="Close", command=close_window)
+close_button.pack()
+
+# Tkinter main loop
 root.mainloop()
