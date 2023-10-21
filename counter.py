@@ -23,11 +23,11 @@ label.pack(pady=20)
 increment_button = tk.Button(root, text="Increment", command=increment_count)
 increment_button.pack()
 
-# "Reset" button
+# Reset button
 reset_button = tk.Button(root, text="Reset", command=reset_count)
 reset_button.pack()
 
-#In-app close Button
+# In-app close Button
 close_button = tk.Button(root, text="Close", command=close_window)
 close_button.pack()
 

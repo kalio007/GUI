@@ -2,13 +2,13 @@ import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 
+def checker():
+    pass
 root = ttk.Window(themename="darkly")
 
 my_label = ttk.Label(text="Click the checkbutton below", font=("san serif", 18))
 my_label.pack(pady=(40,10))
 
-def checker():
-    pass
 var1 = ttk.IntVar()
 my_check = ttk.Checkbutton(bootstyle="primary",
                            text="Check Me Out",
